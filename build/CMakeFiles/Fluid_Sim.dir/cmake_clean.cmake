@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Fluid_Sim.dir/lib/glad/glad.c.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/glad/glad.c.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_demo.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_demo.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_draw.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_draw.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_glfw.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_glfw.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_opengl3.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_opengl3.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_tables.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_tables.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/main.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/main.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o.d"
+  "CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o"
+  "CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o.d"
+  "Fluid_Sim"
+  "Fluid_Sim.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/Fluid_Sim.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
