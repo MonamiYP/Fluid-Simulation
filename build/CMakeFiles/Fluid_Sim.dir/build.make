@@ -195,103 +195,145 @@ CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/lib/imgui/imgui_widgets.cpp -o CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/camera.cpp
-CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/camera.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/camera.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/camera.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/camera.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/camera.cpp > CMakeFiles/Fluid_Sim.dir/src/camera.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/camera.cpp > CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/camera.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/camera.cpp -o CMakeFiles/Fluid_Sim.dir/src/camera.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/camera.cpp -o CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/indexBuffer.cpp
-CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/indexBuffer.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/imgui.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/imgui.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/indexBuffer.cpp > CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/imgui.cpp > CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/indexBuffer.cpp -o CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/imgui.cpp -o CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/renderer.cpp
-CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/renderer.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/input.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/input.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/renderer.cpp > CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/input.cpp > CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/renderer.cpp -o CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/input.cpp -o CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/shader.cpp
-CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/shader.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/window.cpp
+CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/window.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/shader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/shader.cpp > CMakeFiles/Fluid_Sim.dir/src/shader.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/window.cpp > CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/shader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/shader.cpp -o CMakeFiles/Fluid_Sim.dir/src/shader.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/core/window.cpp -o CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/texture.cpp
-CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/texture.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/indexBuffer.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/indexBuffer.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/texture.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/texture.cpp > CMakeFiles/Fluid_Sim.dir/src/texture.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/indexBuffer.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/texture.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/texture.cpp -o CMakeFiles/Fluid_Sim.dir/src/texture.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/indexBuffer.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexArray.cpp
-CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexArray.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/renderer.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/renderer.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexArray.cpp > CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/renderer.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexArray.cpp -o CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/renderer.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.s
 
-CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
-CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexBuffer.cpp
-CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexBuffer.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/shader.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/shader.cpp
 
-CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexBuffer.cpp > CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.i
+CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/shader.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.i
 
-CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/vertexBuffer.cpp -o CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.s
+CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/shader.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.s
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/texture.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/texture.cpp
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/texture.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.i
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/texture.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.s
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexArray.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexArray.cpp
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexArray.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.i
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexArray.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.s
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/flags.make
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o: /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexBuffer.cpp
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o: CMakeFiles/Fluid_Sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o -MF CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o.d -o CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o -c /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexBuffer.cpp
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexBuffer.cpp > CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.i
+
+CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/monami/Documents/GitHub/Fluid-Simulation/src/openGL/vertexBuffer.cpp -o CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.s
 
 # Object files for target Fluid_Sim
 Fluid_Sim_OBJECTS = \
@@ -304,13 +346,16 @@ Fluid_Sim_OBJECTS = \
 "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_opengl3.cpp.o" \
 "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_tables.cpp.o" \
 "CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o" \
-"CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o"
+"CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o" \
+"CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o"
 
 # External object files for target Fluid_Sim
 Fluid_Sim_EXTERNAL_OBJECTS =
@@ -324,17 +369,20 @@ Fluid_Sim: CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_glfw.cpp.o
 Fluid_Sim: CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_impl_opengl3.cpp.o
 Fluid_Sim: CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_tables.cpp.o
 Fluid_Sim: CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o
-Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o
+Fluid_Sim: CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o
 Fluid_Sim: CMakeFiles/Fluid_Sim.dir/build.make
 Fluid_Sim: lib/glfw/src/libglfw3.a
 Fluid_Sim: CMakeFiles/Fluid_Sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Fluid_Sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Fluid_Sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fluid_Sim.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E copy_directory /Users/monami/Documents/GitHub/Fluid-Simulation/res /Users/monami/Documents/GitHub/Fluid-Simulation/build/res
 

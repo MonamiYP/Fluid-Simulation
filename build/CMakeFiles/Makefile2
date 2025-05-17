@@ -205,12 +205,12 @@ lib/glfw/tests/clean: lib/glfw/tests/CMakeFiles/windows.dir/clean
 CMakeFiles/Fluid_Sim.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Fluid_Sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target Fluid_Sim"
 .PHONY : CMakeFiles/Fluid_Sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Fluid_Sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Fluid_Sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : CMakeFiles/Fluid_Sim.dir/rule
@@ -283,12 +283,12 @@ lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
@@ -309,12 +309,12 @@ lib/glfw/src/CMakeFiles/glfw.dir/clean:
 lib/glfw/examples/CMakeFiles/boing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/boing.dir/build.make lib/glfw/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/boing.dir/build.make lib/glfw/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=13,14 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=15,16 "Built target boing"
 .PHONY : lib/glfw/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/boing.dir/rule
@@ -335,7 +335,7 @@ lib/glfw/examples/CMakeFiles/boing.dir/clean:
 lib/glfw/examples/CMakeFiles/gears.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/gears.dir/build.make lib/glfw/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/gears.dir/build.make lib/glfw/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=29,30 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=30,31,32 "Built target gears"
 .PHONY : lib/glfw/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,12 +361,12 @@ lib/glfw/examples/CMakeFiles/gears.dir/clean:
 lib/glfw/examples/CMakeFiles/heightmap.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/heightmap.dir/build.make lib/glfw/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/heightmap.dir/build.make lib/glfw/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=47,48 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=48,49 "Built target heightmap"
 .PHONY : lib/glfw/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/heightmap.dir/rule
@@ -387,12 +387,12 @@ lib/glfw/examples/CMakeFiles/heightmap.dir/clean:
 lib/glfw/examples/CMakeFiles/offscreen.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/offscreen.dir/build.make lib/glfw/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/offscreen.dir/build.make lib/glfw/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=65,66,67 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=66,67 "Built target offscreen"
 .PHONY : lib/glfw/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/offscreen.dir/rule
@@ -413,12 +413,12 @@ lib/glfw/examples/CMakeFiles/offscreen.dir/clean:
 lib/glfw/examples/CMakeFiles/particles.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/particles.dir/build.make lib/glfw/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/particles.dir/build.make lib/glfw/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=70,71,72,73 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=71,72,73 "Built target particles"
 .PHONY : lib/glfw/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/particles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/particles.dir/rule
@@ -439,7 +439,7 @@ lib/glfw/examples/CMakeFiles/particles.dir/clean:
 lib/glfw/examples/CMakeFiles/sharing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/sharing.dir/build.make lib/glfw/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/sharing.dir/build.make lib/glfw/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=76,77 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=76,77,78 "Built target sharing"
 .PHONY : lib/glfw/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -465,12 +465,12 @@ lib/glfw/examples/CMakeFiles/sharing.dir/clean:
 lib/glfw/examples/CMakeFiles/simple.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/simple.dir/build.make lib/glfw/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/simple.dir/build.make lib/glfw/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=78,79 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=79,80 "Built target simple"
 .PHONY : lib/glfw/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/simple.dir/rule
@@ -491,12 +491,12 @@ lib/glfw/examples/CMakeFiles/simple.dir/clean:
 lib/glfw/examples/CMakeFiles/splitview.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/splitview.dir/build.make lib/glfw/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/examples/CMakeFiles/splitview.dir/build.make lib/glfw/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=80,81,82 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=81,82 "Built target splitview"
 .PHONY : lib/glfw/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/splitview.dir/rule
@@ -522,7 +522,7 @@ lib/glfw/examples/CMakeFiles/wave.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/examples/CMakeFiles/wave.dir/rule
@@ -543,12 +543,12 @@ lib/glfw/examples/CMakeFiles/wave.dir/clean:
 lib/glfw/tests/CMakeFiles/clipboard.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/clipboard.dir/build.make lib/glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/clipboard.dir/build.make lib/glfw/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=15,16,17 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=17,18,19 "Built target clipboard"
 .PHONY : lib/glfw/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/clipboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/clipboard.dir/rule
@@ -569,12 +569,12 @@ lib/glfw/tests/CMakeFiles/clipboard.dir/clean:
 lib/glfw/tests/CMakeFiles/events.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/events.dir/build.make lib/glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/events.dir/build.make lib/glfw/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=24,25,26 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=25,26,27 "Built target events"
 .PHONY : lib/glfw/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/events.dir/rule
@@ -595,12 +595,12 @@ lib/glfw/tests/CMakeFiles/events.dir/clean:
 lib/glfw/tests/CMakeFiles/msaa.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/msaa.dir/build.make lib/glfw/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/msaa.dir/build.make lib/glfw/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=62,63,64 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=63,64,65 "Built target msaa"
 .PHONY : lib/glfw/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/msaa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/msaa.dir/rule
@@ -621,12 +621,12 @@ lib/glfw/tests/CMakeFiles/msaa.dir/clean:
 lib/glfw/tests/CMakeFiles/glfwinfo.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/glfwinfo.dir/build.make lib/glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/glfwinfo.dir/build.make lib/glfw/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=43,44,45,46 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=44,45,46,47 "Built target glfwinfo"
 .PHONY : lib/glfw/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/glfwinfo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/glfwinfo.dir/rule
@@ -647,12 +647,12 @@ lib/glfw/tests/CMakeFiles/glfwinfo.dir/clean:
 lib/glfw/tests/CMakeFiles/iconify.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/iconify.dir/build.make lib/glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/iconify.dir/build.make lib/glfw/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=51,52,53 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=52,53,54 "Built target iconify"
 .PHONY : lib/glfw/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/iconify.dir/rule
@@ -673,12 +673,12 @@ lib/glfw/tests/CMakeFiles/iconify.dir/clean:
 lib/glfw/tests/CMakeFiles/monitors.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/monitors.dir/build.make lib/glfw/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/monitors.dir/build.make lib/glfw/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=59,60,61 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=60,61,62 "Built target monitors"
 .PHONY : lib/glfw/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/monitors.dir/rule
@@ -704,7 +704,7 @@ lib/glfw/tests/CMakeFiles/reopen.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/reopen.dir/rule
@@ -725,12 +725,12 @@ lib/glfw/tests/CMakeFiles/reopen.dir/clean:
 lib/glfw/tests/CMakeFiles/cursor.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/cursor.dir/build.make lib/glfw/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/cursor.dir/build.make lib/glfw/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=18,19,20 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=20,21 "Built target cursor"
 .PHONY : lib/glfw/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/cursor.dir/rule
@@ -751,12 +751,12 @@ lib/glfw/tests/CMakeFiles/cursor.dir/clean:
 lib/glfw/tests/CMakeFiles/empty.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/empty.dir/build.make lib/glfw/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/empty.dir/build.make lib/glfw/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=21,22,23 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=22,23,24 "Built target empty"
 .PHONY : lib/glfw/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/empty.dir/rule
@@ -777,12 +777,12 @@ lib/glfw/tests/CMakeFiles/empty.dir/clean:
 lib/glfw/tests/CMakeFiles/gamma.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/gamma.dir/build.make lib/glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/gamma.dir/build.make lib/glfw/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=27,28 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=28,29 "Built target gamma"
 .PHONY : lib/glfw/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/gamma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/gamma.dir/rule
@@ -803,12 +803,12 @@ lib/glfw/tests/CMakeFiles/gamma.dir/clean:
 lib/glfw/tests/CMakeFiles/icon.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/icon.dir/build.make lib/glfw/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/icon.dir/build.make lib/glfw/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=49,50 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=50,51 "Built target icon"
 .PHONY : lib/glfw/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/icon.dir/rule
@@ -829,12 +829,12 @@ lib/glfw/tests/CMakeFiles/icon.dir/clean:
 lib/glfw/tests/CMakeFiles/inputlag.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/inputlag.dir/build.make lib/glfw/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/inputlag.dir/build.make lib/glfw/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=54,55,56 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=55,56,57 "Built target inputlag"
 .PHONY : lib/glfw/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/inputlag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/inputlag.dir/rule
@@ -855,12 +855,12 @@ lib/glfw/tests/CMakeFiles/inputlag.dir/clean:
 lib/glfw/tests/CMakeFiles/joysticks.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/joysticks.dir/build.make lib/glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/joysticks.dir/build.make lib/glfw/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=57,58 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=58,59 "Built target joysticks"
 .PHONY : lib/glfw/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/joysticks.dir/rule
@@ -881,7 +881,7 @@ lib/glfw/tests/CMakeFiles/joysticks.dir/clean:
 lib/glfw/tests/CMakeFiles/opacity.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/opacity.dir/build.make lib/glfw/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/tests/CMakeFiles/opacity.dir/build.make lib/glfw/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=68,69 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles --progress-num=68,69,70 "Built target opacity"
 .PHONY : lib/glfw/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
@@ -912,7 +912,7 @@ lib/glfw/tests/CMakeFiles/tearing.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/tearing.dir/rule
@@ -938,7 +938,7 @@ lib/glfw/tests/CMakeFiles/threads.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/threads.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/threads.dir/rule
@@ -964,7 +964,7 @@ lib/glfw/tests/CMakeFiles/timeout.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/timeout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/timeout.dir/rule
@@ -990,7 +990,7 @@ lib/glfw/tests/CMakeFiles/title.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/title.dir/rule
@@ -1016,7 +1016,7 @@ lib/glfw/tests/CMakeFiles/triangle-vulkan.dir/all: lib/glfw/src/CMakeFiles/glfw.
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/triangle-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/triangle-vulkan.dir/rule
@@ -1042,7 +1042,7 @@ lib/glfw/tests/CMakeFiles/windows.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 lib/glfw/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/glfw/tests/CMakeFiles/windows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/monami/Documents/GitHub/Fluid-Simulation/build/CMakeFiles 0
 .PHONY : lib/glfw/tests/CMakeFiles/windows.dir/rule

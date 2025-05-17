@@ -5,7 +5,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib/glfw/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/res -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib -I/Users/monami/Documents/GitHub/Fluid-Simulation/include
+C_INCLUDES = -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib/glfw/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/res -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib -I/Users/monami/Documents/GitHub/Fluid-Simulation/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/include/core -I/Users/monami/Documents/GitHub/Fluid-Simulation/include/openGL
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib/glfw/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/res -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib -I/Users/monami/Documents/GitHub/Fluid-Simulation/include
+CXX_INCLUDES = -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib/glfw/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/res -I/Users/monami/Documents/GitHub/Fluid-Simulation/lib -I/Users/monami/Documents/GitHub/Fluid-Simulation/include -I/Users/monami/Documents/GitHub/Fluid-Simulation/include/core -I/Users/monami/Documents/GitHub/Fluid-Simulation/include/openGL
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

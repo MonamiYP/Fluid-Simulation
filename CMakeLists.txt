@@ -25,8 +25,10 @@ add_subdirectory(lib/glfw)
 target_include_directories(${PROJECT_NAME}
     PUBLIC lib/glfw/include
     PUBLIC res
-    PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/lib
-    PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include
+    PRIVATE lib
+    PRIVATE include
+    PRIVATE include/core
+    PRIVATE include/openGL
 )
 
 target_link_libraries(${PROJECT_NAME} glfw)

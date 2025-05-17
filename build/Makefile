@@ -782,53 +782,101 @@ lib/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/lib/imgui/imgui_widgets.cpp.s
 .PHONY : lib/imgui/imgui_widgets.cpp.s
 
-src/camera.o: src/camera.cpp.o
-.PHONY : src/camera.o
+src/core/camera.o: src/core/camera.cpp.o
+.PHONY : src/core/camera.o
 
 # target to build an object file
-src/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/camera.cpp.o
-.PHONY : src/camera.cpp.o
+src/core/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.o
+.PHONY : src/core/camera.cpp.o
 
-src/camera.i: src/camera.cpp.i
-.PHONY : src/camera.i
+src/core/camera.i: src/core/camera.cpp.i
+.PHONY : src/core/camera.i
 
 # target to preprocess a source file
-src/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/camera.cpp.i
-.PHONY : src/camera.cpp.i
+src/core/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.i
+.PHONY : src/core/camera.cpp.i
 
-src/camera.s: src/camera.cpp.s
-.PHONY : src/camera.s
+src/core/camera.s: src/core/camera.cpp.s
+.PHONY : src/core/camera.s
 
 # target to generate assembly for a file
-src/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/camera.cpp.s
-.PHONY : src/camera.cpp.s
+src/core/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/camera.cpp.s
+.PHONY : src/core/camera.cpp.s
 
-src/indexBuffer.o: src/indexBuffer.cpp.o
-.PHONY : src/indexBuffer.o
+src/core/imgui.o: src/core/imgui.cpp.o
+.PHONY : src/core/imgui.o
 
 # target to build an object file
-src/indexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.o
-.PHONY : src/indexBuffer.cpp.o
+src/core/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.o
+.PHONY : src/core/imgui.cpp.o
 
-src/indexBuffer.i: src/indexBuffer.cpp.i
-.PHONY : src/indexBuffer.i
+src/core/imgui.i: src/core/imgui.cpp.i
+.PHONY : src/core/imgui.i
 
 # target to preprocess a source file
-src/indexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.i
-.PHONY : src/indexBuffer.cpp.i
+src/core/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.i
+.PHONY : src/core/imgui.cpp.i
 
-src/indexBuffer.s: src/indexBuffer.cpp.s
-.PHONY : src/indexBuffer.s
+src/core/imgui.s: src/core/imgui.cpp.s
+.PHONY : src/core/imgui.s
 
 # target to generate assembly for a file
-src/indexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/indexBuffer.cpp.s
-.PHONY : src/indexBuffer.cpp.s
+src/core/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/imgui.cpp.s
+.PHONY : src/core/imgui.cpp.s
+
+src/core/input.o: src/core/input.cpp.o
+.PHONY : src/core/input.o
+
+# target to build an object file
+src/core/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.o
+.PHONY : src/core/input.cpp.o
+
+src/core/input.i: src/core/input.cpp.i
+.PHONY : src/core/input.i
+
+# target to preprocess a source file
+src/core/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.i
+.PHONY : src/core/input.cpp.i
+
+src/core/input.s: src/core/input.cpp.s
+.PHONY : src/core/input.s
+
+# target to generate assembly for a file
+src/core/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/input.cpp.s
+.PHONY : src/core/input.cpp.s
+
+src/core/window.o: src/core/window.cpp.o
+.PHONY : src/core/window.o
+
+# target to build an object file
+src/core/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.o
+.PHONY : src/core/window.cpp.o
+
+src/core/window.i: src/core/window.cpp.i
+.PHONY : src/core/window.i
+
+# target to preprocess a source file
+src/core/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.i
+.PHONY : src/core/window.cpp.i
+
+src/core/window.s: src/core/window.cpp.s
+.PHONY : src/core/window.s
+
+# target to generate assembly for a file
+src/core/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/core/window.cpp.s
+.PHONY : src/core/window.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -854,125 +902,149 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/renderer.o: src/renderer.cpp.o
-.PHONY : src/renderer.o
+src/openGL/indexBuffer.o: src/openGL/indexBuffer.cpp.o
+.PHONY : src/openGL/indexBuffer.o
 
 # target to build an object file
-src/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.o
-.PHONY : src/renderer.cpp.o
+src/openGL/indexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.o
+.PHONY : src/openGL/indexBuffer.cpp.o
 
-src/renderer.i: src/renderer.cpp.i
-.PHONY : src/renderer.i
+src/openGL/indexBuffer.i: src/openGL/indexBuffer.cpp.i
+.PHONY : src/openGL/indexBuffer.i
 
 # target to preprocess a source file
-src/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.i
-.PHONY : src/renderer.cpp.i
+src/openGL/indexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.i
+.PHONY : src/openGL/indexBuffer.cpp.i
 
-src/renderer.s: src/renderer.cpp.s
-.PHONY : src/renderer.s
+src/openGL/indexBuffer.s: src/openGL/indexBuffer.cpp.s
+.PHONY : src/openGL/indexBuffer.s
 
 # target to generate assembly for a file
-src/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/renderer.cpp.s
-.PHONY : src/renderer.cpp.s
+src/openGL/indexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/indexBuffer.cpp.s
+.PHONY : src/openGL/indexBuffer.cpp.s
 
-src/shader.o: src/shader.cpp.o
-.PHONY : src/shader.o
+src/openGL/renderer.o: src/openGL/renderer.cpp.o
+.PHONY : src/openGL/renderer.o
 
 # target to build an object file
-src/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/shader.cpp.o
-.PHONY : src/shader.cpp.o
+src/openGL/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.o
+.PHONY : src/openGL/renderer.cpp.o
 
-src/shader.i: src/shader.cpp.i
-.PHONY : src/shader.i
+src/openGL/renderer.i: src/openGL/renderer.cpp.i
+.PHONY : src/openGL/renderer.i
 
 # target to preprocess a source file
-src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
+src/openGL/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.i
+.PHONY : src/openGL/renderer.cpp.i
 
-src/shader.s: src/shader.cpp.s
-.PHONY : src/shader.s
+src/openGL/renderer.s: src/openGL/renderer.cpp.s
+.PHONY : src/openGL/renderer.s
 
 # target to generate assembly for a file
-src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
+src/openGL/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/renderer.cpp.s
+.PHONY : src/openGL/renderer.cpp.s
 
-src/texture.o: src/texture.cpp.o
-.PHONY : src/texture.o
+src/openGL/shader.o: src/openGL/shader.cpp.o
+.PHONY : src/openGL/shader.o
 
 # target to build an object file
-src/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/texture.cpp.o
-.PHONY : src/texture.cpp.o
+src/openGL/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.o
+.PHONY : src/openGL/shader.cpp.o
 
-src/texture.i: src/texture.cpp.i
-.PHONY : src/texture.i
+src/openGL/shader.i: src/openGL/shader.cpp.i
+.PHONY : src/openGL/shader.i
 
 # target to preprocess a source file
-src/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/texture.cpp.i
-.PHONY : src/texture.cpp.i
+src/openGL/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.i
+.PHONY : src/openGL/shader.cpp.i
 
-src/texture.s: src/texture.cpp.s
-.PHONY : src/texture.s
+src/openGL/shader.s: src/openGL/shader.cpp.s
+.PHONY : src/openGL/shader.s
 
 # target to generate assembly for a file
-src/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/texture.cpp.s
-.PHONY : src/texture.cpp.s
+src/openGL/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/shader.cpp.s
+.PHONY : src/openGL/shader.cpp.s
 
-src/vertexArray.o: src/vertexArray.cpp.o
-.PHONY : src/vertexArray.o
+src/openGL/texture.o: src/openGL/texture.cpp.o
+.PHONY : src/openGL/texture.o
 
 # target to build an object file
-src/vertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.o
-.PHONY : src/vertexArray.cpp.o
+src/openGL/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.o
+.PHONY : src/openGL/texture.cpp.o
 
-src/vertexArray.i: src/vertexArray.cpp.i
-.PHONY : src/vertexArray.i
+src/openGL/texture.i: src/openGL/texture.cpp.i
+.PHONY : src/openGL/texture.i
 
 # target to preprocess a source file
-src/vertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.i
-.PHONY : src/vertexArray.cpp.i
+src/openGL/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.i
+.PHONY : src/openGL/texture.cpp.i
 
-src/vertexArray.s: src/vertexArray.cpp.s
-.PHONY : src/vertexArray.s
+src/openGL/texture.s: src/openGL/texture.cpp.s
+.PHONY : src/openGL/texture.s
 
 # target to generate assembly for a file
-src/vertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexArray.cpp.s
-.PHONY : src/vertexArray.cpp.s
+src/openGL/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/texture.cpp.s
+.PHONY : src/openGL/texture.cpp.s
 
-src/vertexBuffer.o: src/vertexBuffer.cpp.o
-.PHONY : src/vertexBuffer.o
+src/openGL/vertexArray.o: src/openGL/vertexArray.cpp.o
+.PHONY : src/openGL/vertexArray.o
 
 # target to build an object file
-src/vertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.o
-.PHONY : src/vertexBuffer.cpp.o
+src/openGL/vertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.o
+.PHONY : src/openGL/vertexArray.cpp.o
 
-src/vertexBuffer.i: src/vertexBuffer.cpp.i
-.PHONY : src/vertexBuffer.i
+src/openGL/vertexArray.i: src/openGL/vertexArray.cpp.i
+.PHONY : src/openGL/vertexArray.i
 
 # target to preprocess a source file
-src/vertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.i
-.PHONY : src/vertexBuffer.cpp.i
+src/openGL/vertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.i
+.PHONY : src/openGL/vertexArray.cpp.i
 
-src/vertexBuffer.s: src/vertexBuffer.cpp.s
-.PHONY : src/vertexBuffer.s
+src/openGL/vertexArray.s: src/openGL/vertexArray.cpp.s
+.PHONY : src/openGL/vertexArray.s
 
 # target to generate assembly for a file
-src/vertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/vertexBuffer.cpp.s
-.PHONY : src/vertexBuffer.cpp.s
+src/openGL/vertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexArray.cpp.s
+.PHONY : src/openGL/vertexArray.cpp.s
+
+src/openGL/vertexBuffer.o: src/openGL/vertexBuffer.cpp.o
+.PHONY : src/openGL/vertexBuffer.o
+
+# target to build an object file
+src/openGL/vertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.o
+.PHONY : src/openGL/vertexBuffer.cpp.o
+
+src/openGL/vertexBuffer.i: src/openGL/vertexBuffer.cpp.i
+.PHONY : src/openGL/vertexBuffer.i
+
+# target to preprocess a source file
+src/openGL/vertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.i
+.PHONY : src/openGL/vertexBuffer.cpp.i
+
+src/openGL/vertexBuffer.s: src/openGL/vertexBuffer.cpp.s
+.PHONY : src/openGL/vertexBuffer.s
+
+# target to generate assembly for a file
+src/openGL/vertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Fluid_Sim.dir/build.make CMakeFiles/Fluid_Sim.dir/src/openGL/vertexBuffer.cpp.s
+.PHONY : src/openGL/vertexBuffer.cpp.s
 
 # Help Target
 help:
@@ -1043,30 +1115,39 @@ help:
 	@echo "... lib/imgui/imgui_widgets.o"
 	@echo "... lib/imgui/imgui_widgets.i"
 	@echo "... lib/imgui/imgui_widgets.s"
-	@echo "... src/camera.o"
-	@echo "... src/camera.i"
-	@echo "... src/camera.s"
-	@echo "... src/indexBuffer.o"
-	@echo "... src/indexBuffer.i"
-	@echo "... src/indexBuffer.s"
+	@echo "... src/core/camera.o"
+	@echo "... src/core/camera.i"
+	@echo "... src/core/camera.s"
+	@echo "... src/core/imgui.o"
+	@echo "... src/core/imgui.i"
+	@echo "... src/core/imgui.s"
+	@echo "... src/core/input.o"
+	@echo "... src/core/input.i"
+	@echo "... src/core/input.s"
+	@echo "... src/core/window.o"
+	@echo "... src/core/window.i"
+	@echo "... src/core/window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/renderer.o"
-	@echo "... src/renderer.i"
-	@echo "... src/renderer.s"
-	@echo "... src/shader.o"
-	@echo "... src/shader.i"
-	@echo "... src/shader.s"
-	@echo "... src/texture.o"
-	@echo "... src/texture.i"
-	@echo "... src/texture.s"
-	@echo "... src/vertexArray.o"
-	@echo "... src/vertexArray.i"
-	@echo "... src/vertexArray.s"
-	@echo "... src/vertexBuffer.o"
-	@echo "... src/vertexBuffer.i"
-	@echo "... src/vertexBuffer.s"
+	@echo "... src/openGL/indexBuffer.o"
+	@echo "... src/openGL/indexBuffer.i"
+	@echo "... src/openGL/indexBuffer.s"
+	@echo "... src/openGL/renderer.o"
+	@echo "... src/openGL/renderer.i"
+	@echo "... src/openGL/renderer.s"
+	@echo "... src/openGL/shader.o"
+	@echo "... src/openGL/shader.i"
+	@echo "... src/openGL/shader.s"
+	@echo "... src/openGL/texture.o"
+	@echo "... src/openGL/texture.i"
+	@echo "... src/openGL/texture.s"
+	@echo "... src/openGL/vertexArray.o"
+	@echo "... src/openGL/vertexArray.i"
+	@echo "... src/openGL/vertexArray.s"
+	@echo "... src/openGL/vertexBuffer.o"
+	@echo "... src/openGL/vertexBuffer.i"
+	@echo "... src/openGL/vertexBuffer.s"
 .PHONY : help
 
 
