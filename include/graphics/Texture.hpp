@@ -9,9 +9,14 @@ class Texture {
         unsigned char* m_textureData;
         int m_width, m_height, m_BPP;
 
+        void initTexture();
+
     public:
-        Texture(const std::string& path);
+        Texture(const std::string& path); // Initialise texture with an image
+        Texture(int width, int height); // Initialise texture 
         ~Texture();
+
+        void UploadData(const std::vector<float>& data);
 
         void Bind(unsigned int slot=0) const;
         void Unbind() const;

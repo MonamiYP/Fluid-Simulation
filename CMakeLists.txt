@@ -28,7 +28,8 @@ target_include_directories(${PROJECT_NAME}
     PRIVATE lib
     PRIVATE include
     PRIVATE include/core
-    PRIVATE include/openGL
+    PRIVATE include/graphics
+    PRIVATE include/physics
 )
 
 target_link_libraries(${PROJECT_NAME} glfw)

@@ -4,11 +4,11 @@
 #include <imgui/imgui_impl_glfw.h>
 #include <imgui/imgui_impl_opengl3.h>
 
-ImGUI::ImGUI(GLFWwindow* window) {
+ImGUI::ImGUI(GLFWwindow* window) : m_window(window) {
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGui::StyleColorsDark();
-    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    ImGui_ImplGlfw_InitForOpenGL(m_window, true);
     ImGui_ImplOpenGL3_Init("#version 330 core");  // match OpenGL context
 }
 
@@ -23,10 +23,24 @@ void ImGUI::drawGUI(float deltaTime, float fps) {
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
 
-    ImGui::Begin("GUI");
-    ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", deltaTime * 1000.0f, fps);
-    ImGui::End();
+    drawSideWindow();
 
     ImGui::Render();
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+}
+
+void ImGUI::drawSideWindow() {
+    int window_width, window_height;
+    glfwGetFramebufferSize(m_window, &window_width, &window_height);
+    float guiWidth = window_width * 0.2;
+
+    ImGui::SetNextWindowPos({0, 0});
+    ImGui::SetNextWindowSize({guiWidth/2, (float)window_height});
+
+    ImGui::Begin("Controls", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse);
+
+    ImGui::Text("Control Panel");
+    ImGui::Separator();
+
+    ImGui::End();
 }

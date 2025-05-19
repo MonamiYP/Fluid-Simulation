@@ -6,10 +6,20 @@
 
 class Window {
     private:
-        const float WINDOW_WIDTH = 1200.0f;
-        const float WINDOW_HEIGHT = 800.0f;
+        int window_width = 1200.0f;
+        int window_height = 800.0f;
+
+        int simulation_width;
+        int simulation_height;
+
+        void setupSimulationWindow(GLFWwindow*& window);
 
     public:
         int setupWindow(GLFWwindow*& window);
         static void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+
+        int getHeight() { return window_height; }
+        int getWidth() { return window_width; }
+        int getSimulationHeight() { return simulation_height; }
+        int getSimulationWidth() { return simulation_width; }
 };

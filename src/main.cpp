@@ -11,41 +11,46 @@
 #include <fstream>
 #include <cmath>
 
-#include "Shader.hpp"
-#include "Renderer.hpp"
-#include "VertexBuffer.hpp"
-#include "VertexBufferLayout.hpp"
-#include "IndexBuffer.hpp"
-#include "VertexArray.hpp"
-#include "Texture.hpp"
-#include "Camera.hpp"
-#include "ImGUI.hpp"
 #include "ApplicationState.hpp"
-#include "Input.hpp"
 #include "Window.hpp"
+#include "ImGUI.hpp"
+#include "Renderer.hpp"
+#include "Input.hpp"
+#include "DrawQuad.hpp"
+#include "Grid.hpp"
+#include "Texture.hpp"
+#include "FluidSolver.hpp"
 
 int main() {
-    ApplicationState state;
+    ApplicationState app_state;
     Window window;
-    if (window.setupWindow(state.window) != 0) return -1;
-
-    ImGUI imGUI(state.window);
-    ImGuiIO& io = ImGui::GetIO(); (void)io;
-
     Renderer renderer;
     Input input;
 
-    while (!glfwWindowShouldClose(state.window)) {
+    if (window.setupWindow(app_state.window) != 0) return -1;
+    ImGUI imGUI(app_state.window);
+    ImGuiIO& io = ImGui::GetIO(); (void)io;
+
+    Grid grid(window.getSimulationWidth(), window.getSimulationHeight());
+    DrawQuad quad(renderer);
+
+    Texture densityTex(grid.getWidth(), grid.getHeight());
+    densityTex.UploadData(grid.getDensitiesNormalised());
+
+    FluidSolver fluid(&grid, 0.1, 0.1, 0.1);
+
+    while (!glfwWindowShouldClose(app_state.window)) {
         float currentTime = glfwGetTime();
-        state.deltaTime = currentTime - state.lastTime;
-        state.lastTime = currentTime;
+        app_state.deltaTime = currentTime - app_state.lastTime;
+        app_state.lastTime = currentTime;
+        input.processInput(app_state.window, app_state);
 
-        input.processInput(state.window, state);
         renderer.Clear();
+        quad.draw(densityTex);
 
-        if(state.guiEnable) { imGUI.drawGUI(io.DeltaTime, io.Framerate); };
+        if(app_state.guiEnable) { imGUI.drawGUI(io.DeltaTime, io.Framerate); };
 
-        glfwSwapBuffers(state.window);
+        glfwSwapBuffers(app_state.window);
         glfwPollEvents();
     }
 

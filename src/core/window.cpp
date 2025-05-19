@@ -9,9 +9,9 @@ int Window::setupWindow(GLFWwindow*& window) {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "OpenGLLLLLL", NULL, NULL);
+    window = glfwCreateWindow(window_width, window_height, "Fluid Sim", NULL, NULL);
     if (!window) {
-        std::cout << "Failed to create GLFW window" << std::endl;
+        std::cerr << "Failed to create GLFW window";
         glfwTerminate();
         return -1;
     }
@@ -22,14 +22,24 @@ int Window::setupWindow(GLFWwindow*& window) {
     
     // setup GLAD
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        std::cout << "Failed to initialize GLAD" << std::endl;
+        std::cerr << "Failed to initialize GLAD";
         return -1;
     }
 
     glEnable(GL_DEPTH_TEST);
+
+    setupSimulationWindow(window);
     
     return 0;
 }
+
+void Window::setupSimulationWindow(GLFWwindow*& window) {
+    glfwGetFramebufferSize(window, &window_width, &window_height);
+    simulation_width = window_width * 0.2;
+    simulation_height = window_height;
+    glViewport(simulation_width, 0, window_width - simulation_width, simulation_height);
+}
+
 void Window::framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
 }

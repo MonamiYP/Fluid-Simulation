@@ -34,3 +34,5 @@
 *.dSYM
 .DS_Store
 run
+
+build

@@ -8,18 +8,29 @@ Texture::~Texture() {
     GLCall(glDeleteTextures(1, &m_rendererID));
 }
 
+void Texture::initTexture() {
+    GLCall(glGenTextures(1, &m_rendererID));
+    GLCall(glBindTexture(GL_TEXTURE_2D, m_rendererID));
+
+    GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE));
+    GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE));
+    GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));
+    GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
+}
+
+Texture::Texture(int width, int height) : m_width(width), m_height(height) {
+    initTexture();
+
+    GLCall(glTexImage2D(GL_TEXTURE_2D, 0, GL_R32F, m_width, m_height, 0, GL_RED, GL_FLOAT, nullptr));
+    GLCall(glBindTexture(GL_TEXTURE_2D, 0));
+}
+
 Texture::Texture(const std::string& path) 
     : m_rendererID(0), m_filepath(path), m_textureData(nullptr), 
     m_width(0), m_height(0), m_BPP(0) {
         stbi_set_flip_vertically_on_load(1);
 
-        GLCall(glGenTextures(1, &m_rendererID));
-        GLCall(glBindTexture(GL_TEXTURE_2D, m_rendererID));
-
-        GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT));
-        GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT));
-        GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR));
-        GLCall(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
+        initTexture();
 
         m_textureData = stbi_load(path.c_str(), &m_width, &m_height, &m_BPP, 0);
 
@@ -36,6 +47,12 @@ Texture::Texture(const std::string& path)
 
         GLCall(glBindTexture(GL_TEXTURE_2D, 0));
         stbi_image_free(m_textureData);
+}
+
+void Texture::UploadData(const std::vector<float>& data) {
+    glBindTexture(GL_TEXTURE_2D, m_rendererID);
+    glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_width, m_height, GL_RED, GL_FLOAT, data.data());
+    glBindTexture(GL_TEXTURE_2D, 0);
 }
 
 void Texture::Bind(unsigned int slot) const {
