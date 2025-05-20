@@ -18,8 +18,7 @@ void FluidSolver::addDensitySource(glm::vec2 location, int amount, int radius) {
     }
 }
 
-void FluidSolver::addVelocitySource(glm::vec2 location, glm::vec2 amount) {
-    int radius = 4;
+void FluidSolver::addVelocitySource(glm::vec2 location, glm::vec2 amount, int radius) {
     for (int dy = -radius; dy <= radius; dy++) {
         for (int dx = -radius; dx <= radius; dx++) {
             int xPos = location.x + dx;
@@ -30,8 +29,8 @@ void FluidSolver::addVelocitySource(glm::vec2 location, glm::vec2 amount) {
                 if (dist <= radius) {
                     int index = getIndex(xPos, yPos);
                     float falloff = 1.0f - (dist / radius);
-                    m_velocity_x[index] += amount.x * falloff;
-                    m_velocity_y[index] += amount.y * falloff;
+                    m_velocity_x[index] += amount.x * falloff * 0.1;
+                    m_velocity_y[index] += amount.y * falloff * 0.1;
                 }
             }
         }

@@ -13,20 +13,28 @@ void Input::processInput(GLFWwindow* window, ApplicationState& state) {
     m_mousePressed = glfwGetMouseButton(glfwGetCurrentContext(), GLFW_MOUSE_BUTTON_LEFT);
 }
 
-glm::vec2 Input::getMouseGridPosition(Window* window) {
+glm::vec2 Input::getMouseGridPosition(Window* window, int grid_width, int grid_height) {
     int simWidth = window->getSimulationWidth();
     int simHeight = window->getSimulationHeight();
-    int winWidth = window->getWidth();
-    int winHeight = window->getHeight();
+    int fbWidth = window->getWidth();
 
-    float relativeX = m_mouseX * 2 - (winWidth - simWidth);
-    float relativeY = m_mouseY * 2;
+    // Multiply by 2 (because framebuffer was 2 times larger than window, remove hard code in future)
+    float mouseXGrid = 2 * m_mouseX;
+    float mouseYGrid = 2 * m_mouseY;
 
-    relativeX = std::clamp(relativeX, 0.0f, float(simWidth));
-    relativeY = std::clamp(relativeY, 0.0f, float(simHeight));
-    relativeY = float(simHeight) - relativeY;
+    // Convert to simulation coordinates (y is flipped)
+    mouseXGrid = mouseXGrid - (fbWidth - simWidth);
+    mouseYGrid = simHeight - mouseYGrid;
 
-    return glm::vec2((int)relativeX, (int)relativeY);
+    // Convert to grid coordinates
+    mouseXGrid = mouseXGrid * grid_width / simWidth;
+    mouseYGrid = mouseYGrid * grid_height / simHeight;
+
+    // Clamp to screen
+    mouseXGrid = std::clamp(mouseXGrid, 0.0f, (float)grid_width);
+    mouseYGrid = std::clamp(mouseYGrid, 0.0f, (float)grid_height);
+
+    return glm::vec2((int)mouseXGrid, (int)mouseYGrid);
 }
 
 glm::vec2 Input::getMouseDelta() {

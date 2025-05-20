@@ -6,8 +6,8 @@
 
 class Window {
     private:
-        int window_width = 200.0f;
-        int window_height = 100.0f;
+        int window_width = 1200.0f;
+        int window_height = 800.0f;
 
         int fb_width;
         int fb_height;

@@ -37,6 +37,7 @@ void Window::setupSimulationWindow(GLFWwindow*& window) {
     glfwGetFramebufferSize(window, &window_width, &window_height);
     simulation_width = window_width * 0.8;
     simulation_height = window_height;
+    std::cout << simulation_height << std::endl;
     glViewport(window_width - simulation_width, 0, simulation_width, simulation_height);
 }
 

@@ -43,7 +43,7 @@ class FluidSolver {
             m_density((width+2)*(height+2), 0.0f), m_density_prev((width+2)*(height+2), 0.0f) {};
 
         void addDensitySource(glm::vec2 location, int amount, int radius);
-        void addVelocitySource(glm::vec2 location, glm::vec2 amount);
+        void addVelocitySource(glm::vec2 location, glm::vec2 amount, int radius);
         void step();
 
         float getWidth() { return m_width; }
