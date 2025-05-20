@@ -1,24 +1,5 @@
 #include "FluidSolver.hpp"
 
-#include <iostream>
-
-FluidSolver::FluidSolver(Grid* grid, float dt, float viscosity, float diffusion) : m_grid(grid), m_dt(dt) {
-    m_viscosity = viscosity;
-    m_diffusion_coeff = diffusion;
-
-    m_width = m_grid->getWidth();
-    m_height = m_grid->getHeight();
-    m_size = (m_width+2) * (m_height+2);
-
-    m_density = m_grid->getDensities();
-    m_density_prev = std::vector<float>(m_density);
-    m_source = std::vector<float>(m_size, 0.0f);  // Tempprary, add source dynamically in the future
-    m_velocity_x = m_grid->getVelocitiesX();
-    m_velocity_y = m_grid->getVelocitiesY();
-    m_velocity_x_prev = m_velocity_x;
-    m_velocity_y_prev = m_velocity_y;
-}
-
 void FluidSolver::addDensitySource(glm::vec2 location, int amount, int radius) {
     for (int dy = -radius; dy <= radius; dy++) {
         for (int dx = -radius; dx <= radius; dx++) {
@@ -195,7 +176,6 @@ void FluidSolver::project(std::vector<float>& u, std::vector<float>& v) {
 void FluidSolver::step() {
     stepDensity();
     stepVelocity();
-    m_grid->setDensities(m_density);
 }
 
 void FluidSolver::stepDensity() {
@@ -218,4 +198,19 @@ void FluidSolver::stepVelocity() {
     advect(1, m_velocity_x, m_velocity_x_prev, m_velocity_x_prev, m_velocity_y_prev);
     advect(2, m_velocity_y, m_velocity_y_prev, m_velocity_x_prev, m_velocity_y_prev);
     project(m_velocity_x, m_velocity_y);
+}
+
+std::vector<float> FluidSolver::getDensitiesWithoutBoundaries() {
+    const std::vector<float>& fullDensities = getDensities();
+    std::vector<float> densities(m_width * m_height);
+
+    for (int j = 0; j < m_height; j++) {
+        for (int i = 0; i < m_width; i++) {
+            // +1 offset to skip boundary layer
+            int fullIndex = (i + 1) + (m_width + 2) * (j + 1);
+            int coreIndex = i + m_width * j;
+            densities[coreIndex] = fullDensities[fullIndex];
+        }
+    }
+    return densities;
 }

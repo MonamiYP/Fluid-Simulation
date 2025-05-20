@@ -17,7 +17,6 @@
 #include "Renderer.hpp"
 #include "Input.hpp"
 #include "DrawQuad.hpp"
-#include "Grid.hpp"
 #include "Texture.hpp"
 #include "FluidSolver.hpp"
 
@@ -31,12 +30,11 @@ int main() {
     ImGUI imGUI(app_state.window);
     ImGuiIO& io = ImGui::GetIO(); (void)io;
 
-    Grid grid(window.getSimulationWidth(), window.getSimulationHeight());
     DrawQuad quad(renderer);
 
-    Texture densityTex(grid.getWidth(), grid.getHeight());
+    Texture densityTex(window.getSimulationWidth(), window.getSimulationHeight());
 
-    FluidSolver fluid(&grid, 0.001, 0.001, 0.1);
+    FluidSolver fluid(window.getSimulationWidth(), window.getSimulationHeight(), 0.001, 0.001, 0.1);
 
     while (!glfwWindowShouldClose(app_state.window)) {
         float currentTime = glfwGetTime();
@@ -50,7 +48,7 @@ int main() {
         }
 
         fluid.step();
-        densityTex.UploadData(grid.getDensitiesWithoutBoundaries());
+        densityTex.UploadData(fluid.getDensitiesWithoutBoundaries());
 
         renderer.Clear();
         quad.draw(densityTex);

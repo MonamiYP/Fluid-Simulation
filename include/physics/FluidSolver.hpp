@@ -1,21 +1,20 @@
 #pragma once
 
+#include <glm/glm.hpp>
 #include <vector>
-
-#include "Grid.hpp"
 
 class FluidSolver {
     private:
-        Grid* m_grid;
         int m_width;
         int m_height;
-        float m_dt;
         int m_size;
 
+        float m_dt;
         float m_viscosity;
         float m_diffusion_coeff;
 
         std::vector<float> m_source;
+
         std::vector<float> m_density;
         std::vector<float> m_density_prev;
 
@@ -36,8 +35,22 @@ class FluidSolver {
         void stepVelocity();
 
     public:
+        FluidSolver(int width, int height, float dt, float viscosity, float diffusion) : m_dt(dt), 
+            m_width(width), m_height(height), m_size((width+2) * (height+2)),
+            m_viscosity(viscosity), m_diffusion_coeff(diffusion),
+            m_velocity_x((width+2) * (height+2), 0.0f), m_velocity_y((width+2) * (height+2), 0.0f),
+            m_velocity_x_prev((width+2) * (height+2), 0.0f), m_velocity_y_prev((width+2) * (height+2), 0.0f), 
+            m_density((width+2)*(height+2), 0.0f), m_density_prev((width+2)*(height+2), 0.0f) {};
+
         void addDensitySource(glm::vec2 location, int amount, int radius);
         void addVelocitySource(glm::vec2 location, glm::vec2 amount);
-        FluidSolver(Grid* grid, float dt, float viscosity, float diffusion);
         void step();
+
+        float getWidth() { return m_width; }
+        float getHeight() { return m_height; }
+        
+        std::vector<float>& getVelocitiesX() { return m_velocity_x; };
+        std::vector<float>& getVelocitiesY() { return m_velocity_y; };
+        std::vector<float>& getDensities() { return m_density; };
+        std::vector<float> getDensitiesWithoutBoundaries();
 };
