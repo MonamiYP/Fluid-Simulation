@@ -3,6 +3,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#include "ApplicationState.hpp"
+#include "FluidSolver.hpp"
+
 class ImGUI {
     private:
         GLFWwindow* m_window;
@@ -11,6 +14,6 @@ class ImGUI {
         ImGUI(GLFWwindow* window);
         ~ImGUI();
         
-        void drawGUI(float deltaTime, float fps);
-        void drawSideWindow();
+        void drawGUI(ApplicationState* state, FluidSolver* solver);
+        void drawFluidSimGUI(ApplicationState* state, FluidSolver* solver);
 };

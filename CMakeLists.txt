@@ -29,6 +29,7 @@ target_include_directories(${PROJECT_NAME}
     PRIVATE include
     PRIVATE include/core
     PRIVATE include/graphics
+    PRIVATE include/openGL
     PRIVATE include/physics
 )
 

@@ -1,15 +1,17 @@
 #include "DrawQuad.hpp"
 
-float vertices[] = {
-    -1.0f, -1.0f, 0.0f,
-    -1.0f,  1.0f, 0.0f,
-    1.0f,  1.0f, 0.0f,
-    1.0f, -1.0f, 0.0f
-};
+DrawQuad::DrawQuad(Renderer& renderer) : m_vao(), m_vbo(), m_ibo(), m_renderer(renderer) {
+    float vertices[] = {
+        -1.0f, -1.0f, 0.0f,
+        -1.0f,  1.0f, 0.0f,
+        1.0f,  1.0f, 0.0f,
+        1.0f, -1.0f, 0.0f
+    };
 
-unsigned int indices[] = { 0, 1, 2, 2, 3, 0 };
+    unsigned int indices[] = { 0, 1, 2, 2, 3, 0 };
+    m_vbo.AddData(vertices, sizeof(vertices));
+    m_ibo.AddData(indices, 6);
 
-DrawQuad::DrawQuad(Renderer& renderer) : m_vao(), m_vbo(vertices, sizeof(vertices)), m_ibo(indices, 6), m_renderer(renderer) {
     VertexBufferLayout layout;
     layout.AddAttribute(3);
     m_vao.AddBuffer(m_vbo, layout);

@@ -21,7 +21,7 @@ void Texture::initTexture() {
 Texture::Texture(int width, int height) : m_width(width), m_height(height) {
     initTexture();
 
-    GLCall(glTexImage2D(GL_TEXTURE_2D, 0, GL_R32F, m_width, m_height, 0, GL_RED, GL_FLOAT, nullptr));
+    GLCall(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB32F, m_width, m_height, 0, GL_RGB, GL_FLOAT, nullptr));
     GLCall(glBindTexture(GL_TEXTURE_2D, 0));
 }
 
@@ -49,9 +49,18 @@ Texture::Texture(const std::string& path)
         stbi_image_free(m_textureData);
 }
 
-void Texture::UploadData(const std::vector<float>& data) {
+void Texture::UploadData(const std::vector<float>& data, const float color[3]) {
+    std::vector<float> rgbData(m_width * m_height * 3); // RGB, 3 floats per pixel
+
+    for (int i = 0; i < m_width * m_height; i++) {
+        float value = data[i];
+        rgbData[i * 3 + 0] = value * color[0]; // Red
+        rgbData[i * 3 + 1] = value * color[1]; // Green
+        rgbData[i * 3 + 2] = value * color[2]; // Blue
+    }
+
     glBindTexture(GL_TEXTURE_2D, m_rendererID);
-    glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_width, m_height, GL_RED, GL_FLOAT, data.data());
+    glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, m_width, m_height, GL_RGB, GL_FLOAT, rgbData.data());
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 

@@ -16,7 +16,7 @@ class Texture {
         Texture(int width, int height); // Initialise texture 
         ~Texture();
 
-        void UploadData(const std::vector<float>& data);
+        void UploadData(const std::vector<float>& data, const float color[3]);
 
         void Bind(unsigned int slot=0) const;
         void Unbind() const;

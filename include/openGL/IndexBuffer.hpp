@@ -5,8 +5,10 @@ class IndexBuffer {
         unsigned int m_rendererID;
         unsigned int m_count;
     public:
-        IndexBuffer(const unsigned int* data, unsigned int count);
+        IndexBuffer();
         ~IndexBuffer();
+
+        void AddData(const unsigned int* data, unsigned int count);
 
         void Bind() const;
         void Unbind() const;

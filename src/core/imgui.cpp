@@ -18,18 +18,18 @@ ImGUI::~ImGUI() {
     ImGui::DestroyContext();
 }
 
-void ImGUI::drawGUI(float deltaTime, float fps) {
+void ImGUI::drawGUI(ApplicationState* state, FluidSolver* solver) {
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
 
-    drawSideWindow();
+    drawFluidSimGUI(state, solver);
 
     ImGui::Render();
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
 
-void ImGUI::drawSideWindow() {
+void ImGUI::drawFluidSimGUI(ApplicationState* state, FluidSolver* solver) {
     int window_width, window_height;
     glfwGetFramebufferSize(m_window, &window_width, &window_height);
     float guiWidth = window_width * 0.2;
@@ -38,9 +38,34 @@ void ImGUI::drawSideWindow() {
     ImGui::SetNextWindowSize({guiWidth/2, (float)window_height});
 
     ImGui::Begin("Controls", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse);
-
+    
     ImGui::Text("Control Panel");
     ImGui::Separator();
+    ImGui::Text("FPS: %.1f", ImGui::GetIO().Framerate);
+    ImGui::Separator();
+    
+    ImGui::Text("Fluid parameters");
+    ImGui::SliderFloat("Viscosity", &solver->m_viscosity, 0.0f, 1.0f);
+    ImGui::SliderFloat("Diffusion", &solver->m_diffusion_coeff, 0.0f, 0.0001f, "%.6f");
+    ImGui::Separator();
+
+    ImGui::Text("Source");
+    if (ImGui::Button(state->addDensitySource ? "Stop" : "Add density")) state->addDensitySource = !state->addDensitySource;
+    if (ImGui::Button(state->addVelocitySource ? "Stop" : "Add velocity")) state->addVelocitySource = !state->addVelocitySource;
+    ImGui::Text("Source strength");
+    ImGui::SliderFloat("Density", &solver->m_density_source_strength, 0.0f, 2.0f);
+    ImGui::SliderFloat("Velocity", &solver->m_velocity_source_strength, 0.0f, 100.0f);
+    ImGui::Text("Fading rate");
+    ImGui::SliderFloat("Fade Density", &solver->m_density_fade_rate, 0.98f, 1.0f);
+    ImGui::SliderFloat("Fade Velocity", &solver->m_velocity_fade_rate, 0.98f, 1.0f);
+
+    ImGui::Text("Velocity field");
+    ImGui::Checkbox("Draw velocity arrows", &state->arrowsVisible);
+    // Todo: pick between different velocity fields
+
+    ImGui::Separator();
+
+    ImGui::ColorEdit3("Color", state->color);
 
     ImGui::End();
 }

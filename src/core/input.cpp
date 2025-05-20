@@ -8,7 +8,6 @@ void Input::processInput(GLFWwindow* window, ApplicationState& state) {
 
     m_mouseXPrev = m_mouseX;
     m_mouseYPrev = m_mouseY;
-
     glfwGetCursorPos(glfwGetCurrentContext(), &m_mouseX, &m_mouseY);
     m_mousePressed = glfwGetMouseButton(glfwGetCurrentContext(), GLFW_MOUSE_BUTTON_LEFT);
 }
@@ -38,7 +37,7 @@ glm::vec2 Input::getMouseGridPosition(Window* window, int grid_width, int grid_h
 }
 
 glm::vec2 Input::getMouseDelta() {
-    return glm::vec2((m_mouseX - m_mouseXPrev) * 100, (m_mouseY - m_mouseYPrev) * 100);
+    return glm::vec2(m_mouseX - m_mouseXPrev, m_mouseY - m_mouseYPrev);
 }
 
 void Input::toggleImGUI(GLFWwindow* window, ApplicationState& state) {
