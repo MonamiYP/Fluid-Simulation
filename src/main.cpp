@@ -35,15 +35,22 @@ int main() {
     DrawQuad quad(renderer);
 
     Texture densityTex(grid.getWidth(), grid.getHeight());
-    densityTex.UploadData(grid.getDensitiesNormalised());
 
-    FluidSolver fluid(&grid, 0.1, 0.1, 0.1);
+    FluidSolver fluid(&grid, 0.001, 0.001, 0.1);
 
     while (!glfwWindowShouldClose(app_state.window)) {
         float currentTime = glfwGetTime();
         app_state.deltaTime = currentTime - app_state.lastTime;
         app_state.lastTime = currentTime;
         input.processInput(app_state.window, app_state);
+        if (input.isMousePressed()) {
+            glm::vec2 gridPos = input.getMouseGridPosition(&window);
+            fluid.addDensitySource(gridPos, 5, 4);
+            fluid.addVelocitySource(gridPos, input.getMouseDelta());
+        }
+
+        fluid.step();
+        densityTex.UploadData(grid.getDensitiesWithoutBoundaries());
 
         renderer.Clear();
         quad.draw(densityTex);
